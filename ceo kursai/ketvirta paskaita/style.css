@@ -1,0 +1,20 @@
+.atvaizdavimas{
+    background-color:  rgb(39, 39, 220);
+}
+.atvaizdavimas p{
+    background-color: black;
+}
+
+.parent{
+    background-color: aqua;
+    display:inline-block;
+    width: 50%;
+    height: 300px;
+}
+
+.children{
+    background-color: red;
+    width: 50%;
+    height: 300px;
+    float: left;
+}

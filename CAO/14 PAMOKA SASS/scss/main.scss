@@ -1,0 +1,61 @@
+@import './colors.scss';
+
+
+@mixin centerContent($direction) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: $direction;
+}
+
+
+div{
+    background-color: red;
+}
+
+header{
+    height: 100px;
+    background-color: $mainColor;
+    color: $maintextColor;
+
+    @include centerContent(row);
+
+    h1{
+        color:$maintextColor;
+    }
+}
+
+main{
+    margin-top: 1rem;
+    height: 600px;
+    background-color: $mainColor;
+    color: $maintextColor;
+    gap:1rem;
+
+    @include centerContent(column);
+
+    div{
+        background-color: aquamarine;
+        width: 200px;
+        height: 200px;
+    }
+
+    .middle{
+        background-color: red;
+        &:hover{
+            background-color: blue;
+        }
+    }
+    
+
+}
+
+footer{
+    margin-top: 1rem;
+    height: 100px;
+    background-color: $mainColor;
+    color: $maintextColor;
+
+    @include centerContent(row);
+}
+

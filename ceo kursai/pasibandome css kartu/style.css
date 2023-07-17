@@ -1,0 +1,26 @@
+.Turinis{
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.tekstas{
+    font: bold;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.lorem{
+    color: rgb(36, 122, 36);
+}
+
+.pagalba{
+    font-style: italic;
+    font: bolder;
+    
+}
+
+span{
+    color: rgb(32, 112, 177);
+}

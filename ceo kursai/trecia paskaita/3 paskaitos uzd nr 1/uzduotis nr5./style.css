@@ -1,0 +1,8 @@
+.atskirimas{
+    border-top: 1px solid black;
+    margin-top: 10px;
+    margin-bottom:10px;
+background-image: url(/img/SW-board.jpeg);
+background-size: cover;
+background-position: center;
+}

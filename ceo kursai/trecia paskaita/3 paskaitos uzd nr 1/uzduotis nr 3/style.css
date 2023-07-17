@@ -1,0 +1,20 @@
+.header{
+    background-color: blueviolet;
+    border-radius: 50%;
+    border: solid 1px color(srgb red green blue);
+    height: 300px;
+}
+
+.main{
+    background-color: rgb(211, 185, 145);
+    border-color: greenyellow;
+    border: solid 1px color(srgb-linear red green blue);
+    height: 200px;
+}
+
+.footer{
+    background-color: turquoise;
+    border-color: black;
+    border: solid 2px color(a98-rgb red green blue);
+    height: 100px;
+}

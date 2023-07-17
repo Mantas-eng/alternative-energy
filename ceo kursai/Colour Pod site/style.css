@@ -1,0 +1,108 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.body{
+    max-width: 600px;
+}
+.header{
+    margin: 50px;
+}
+.container{
+    
+    margin: 30px;
+}
+.line{
+    border:1px solid rgb(33, 199, 52);
+    
+    
+}
+.clear{
+    clear:both;
+}
+.main{
+    margin:auto;
+    padding: auto;
+    margin: 50px;
+}
+.head{
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+.subtitle{
+    text-align: center;
+    color: white;
+}
+div.box {
+    height: 400px;
+    width: 400px;
+    border: 5px solid #ffffff;
+    float: left;
+    margin: 0px;
+    margin-left: 30px;
+    position: relative;
+    bottom: 30px;
+}
+.tekstas{
+text-align: center;
+padding: 10px 0;
+margin: 10px;
+color: white;
+}
+.button{
+    text-align: center;
+}
+button{
+    width: 200px;
+    height: 50px;    
+}
+button#color-first{
+    color: rgb(150, 234, 61);
+    border: 1px solid rgb(150, 234, 61);
+}
+
+button#color-second{
+  color:   rgb(94, 125, 218);
+  border: 1px solid rgb(94, 125, 218);
+}
+
+button#color-third{
+    color: rgb(255, 166, 0);
+    border: 1px solid rgb(255, 166, 0);
+}
+div#first{
+    background-color: #85dc3ed0;
+    background: linear-gradient(45deg, rgb(150, 234, 61), rgb(174, 250, 88));
+
+}
+
+div#second{
+    background-color: rgb(62, 90, 205);
+    background: linear-gradient(45deg, rgb(94, 125, 218), rgb(131, 159, 224));
+}
+div#third{
+    background-color:#bc7035;
+    background: linear-gradient(45deg, rgb(255, 166, 0), rgb(235, 158, 15));
+
+}
+
+.second-content{
+    margin: 30px;
+    padding: 10px;
+}
+.border{
+    border: 1px solid green;
+    border-bottom: #ffffff;
+}
+ .svg-components{
+    height: 100px;
+    width: 100px;
+    float: left;    
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}

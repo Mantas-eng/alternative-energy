@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.wrapper{
+    display: inline-flex;
+    flex-direction: column-reverse;
+    background-color: blue;
+    gap: 10px;
+    min-width: 50px;
+    
+}
+.group {
+    display: flex;
+    background-color: rgb(255, 255, 255);    
+}
+
+.group1{
+    display: inline-flex;   
+    background-color: white;    
+    
+}
+.child1{
+    flex: 1;
+    min-width: 50px;
+    border: 1px solid rgb(154, 70, 70);
+    border: solid 10px rgb(53, 176, 233);
+    background-color: pink;
+    height: 50px;
+    width: 50px;
+    width: 100px;
+}
+.child {
+    flex: 1;
+    min-width: 50px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: rgb(224, 88, 111);
+    border: solid 10px rgb(53, 176, 233);
+}
+
+.border{
+    background-color: aquamarine;
+    margin: 5px;
+}

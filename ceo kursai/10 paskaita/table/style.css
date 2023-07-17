@@ -1,0 +1,37 @@
+table{
+    border-collapse: collapse;
+    border: 2px solid rgb(185, 185, 210);
+}
+thead,th {
+    border: 1px solid rgb(132, 176, 187);
+}
+th, td{
+    border: 2px solid rgb(161, 206, 206);
+    padding: 15px;
+    border-style: dashed;
+    color: rgb(67, 103, 115);
+}
+th:nth-child(4)
+    {
+        display: block;
+        text-align: center;
+    }
+tr:nth-child(2n)
+{
+    background-color: rgb(132, 176, 187);
+}
+
+th{
+    background-color: rgb(132, 176, 187);
+    color: #fff;
+    color: rgb(47, 61, 81);
+    padding: 15px;
+    
+}
+.table-control:nth-child(2n){
+    border-style: dashed;
+        
+        
+      
+}
+

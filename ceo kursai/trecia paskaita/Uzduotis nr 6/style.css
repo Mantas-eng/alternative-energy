@@ -1,0 +1,11 @@
+.kvadratas{
+    height:50px;
+    width: 50px;
+    background-color: #08256a;
+}
+
+.kvadratas a{
+    text-decoration: none;
+    text-align: center;
+    color: yellowgreen;
+}

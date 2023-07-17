@@ -1,0 +1,33 @@
+.first-wrapper{
+    border: 2px solid black;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.child{
+    width: 50px;
+    height: 50px;
+    background-color: cadetblue;
+}
+
+.second-wrapper{
+    border: 2px solid black;
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    align-items: stretch;
+    height: 300px;
+}
+
+.second-wrapper.child{
+    background-color: blueviolet;
+    height: initial;
+}
+
+.second-wrapper .child-wrapper{
+    display: flex;
+    flex-direction: column;
+    
+}

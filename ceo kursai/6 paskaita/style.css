@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+.parent{
+    background-color: bisque;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    gap: 30px;
+    justify-content: center; /*horizontoliai */
+    align-items: center; /* verticaliai */
+flex-direction: column; /*kad viskas eitu stulpeliu */
+flex-wrap: wrap;    
+}
+#box-color{
+    color: blue;
+}
+.child{
+    height: 200px;
+    width: 300px;
+    background-color: blue;
+    margin: auto;
+    margin-top: 200px;
+    padding: 30px;
+}
+
+.fourth{
+    height: 20px;
+}

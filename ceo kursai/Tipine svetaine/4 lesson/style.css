@@ -1,0 +1,51 @@
+.parent{
+    color: blue;
+}
+
+.children{
+    color:brown;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border:none;
+    cursor:pointer;
+    all:unset;
+    background-color: green;
+    color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+
+}
+
+ul{
+    all:unset;
+}
+
+.wrapper{
+    width: 500px;
+    height: 200px;
+    background-color: cadetblue;
+}
+
+.content{
+
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    margin: auto;
+}
+.first{
+background-color: cadetblue;
+height: 100px;
+display: inline;
+}
+
+.second{
+background-color: plum;
+height: 100px;
+display: inline-block;
+}
+

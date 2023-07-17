@@ -1,0 +1,44 @@
+.cards{
+    margin-bottom: 100px;
+}
+
+
+.card{
+    background-color: grey;
+    width: 200px;
+    box-sizing: border-box; /* padaro jisai sako jeigu mes nurodome 200 plocio tai pas mus turi buti iskaiciuota 200px */
+    height: 220px;
+    font-size: 22px;
+    display: inline-block;
+    border: 10px solid blue;
+    margin-right: 20px;
+    margin-top: 20px; 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.parent{
+font-size: 0;
+margin-bottom: 50px;
+}
+.child{
+    width: 50%;
+    height: 100px;
+    display: inline-block;
+    vertical-align: top;
+}
+.first-child{
+    background-color: aqua;
+}
+.second-child{
+    background-color: yellowgreen;
+}
+.page{
+    color: lightgray;
+    height: 100%;
+    width: 100%;
+}
+.page-wrapper{
+    height: 400px;
+}

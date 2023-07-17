@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+.page-wrapper{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./natures.img);
+    background-position: center;
+    background-size: center;
+    overflow: auto;
+}
+
+.page-content{
+    background-color: violet;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    display: flex;
+}
+
+.call-to-action{
+    all: unset;
+    border: 1px solid black;
+}
+
+
+.call-to-action:hover{
+    background-color: rgba(51, 51, 51, 0.100);
+    color: white;
+}
+.user{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    transition: all;
+}
+.user:hover{
+    border-radius: 50%;
+}
+.cubes-wrapper{
+    background-color: violet;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+.cubes-wrapper div{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+
+.cubes-wrapper:nth-child(1){
+    background-color: green;
+    width: 500px;
+}

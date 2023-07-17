@@ -1,0 +1,40 @@
+.parent{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    justify-items: center;
+    align-items: center;
+    gap:30px;
+    height: 1000px;
+    background-color: 98,98,207;
+    
+}
+
+
+.menu{
+    grid-column-start:1;
+    grid-column-end: 2;
+}
+.heading-banner{
+    height: 300px;
+    background-color: cadetblue;
+}
+
+
+.content div{
+border: 2px solid blue;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+justify-items: center;
+width: 1000px;
+margin: auto;
+}
+
+.content div{
+    border: 2px solid blue;
+    width: 300px;
+    width: 300px;
+
+}

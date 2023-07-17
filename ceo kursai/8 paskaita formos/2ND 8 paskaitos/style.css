@@ -1,0 +1,78 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    gap: 16px;
+    outline: none;
+    
+}
+body{
+    background-color: rgb(210, 212, 213);
+}
+label{
+    position: relative;
+    top: 25px;
+    left: 90px;
+}
+.input1{
+    position: relative;
+    top: 25px;
+    left: 90px;
+}
+.red1{
+    position: relative;
+    top: 50px;
+    right: 30px;
+}
+.red2{
+    position: relative;
+    top: 30px;
+    right: 80px ;
+}
+ input{
+    padding: 4px 8px;
+    background-color: transparent;
+    width: 300px;
+    
+    position: relative;
+    left: 180px;
+}
+.header{
+    margin: 20px;
+}
+h1{
+    margin: 10PX;
+}
+.register-button{
+    width: 100px;
+    align-self: center;
+    all:unset;
+    background-color: rgb(205, 199, 199);
+    cursor: pointer;
+    text-align:center;
+    
+    border-radius: 6px;
+}
+
+.box{
+    border: 1px solid black;
+    position: relative;
+    top: 80px;
+    margin: 20px;
+}
+.form-row input[type="checkbox"] {
+    margin-left: auto;
+
+  }
+  .label1{
+    position: relative;
+    top: 100px;
+  }
+  .checkbox{
+    position: relative;
+    top: 82px;
+  }
+  .validate{
+    position: relative;
+    top: 130px;
+  }

@@ -1,0 +1,108 @@
+body{
+    min-width: 600px;
+}
+
+header{
+    height:80px;
+    background-color: darkcyan;
+}
+
+footer{
+    height: 80px;
+    background-color: darkcyan;
+    text-align: center;
+}
+.middle-component{
+    font-size: 0;
+}
+.menu{
+    height: 400px;
+    width: 20%;
+    background-color: darkgrey;
+    display: inline-block;
+    font-size: initial;
+    vertical-align: top;
+}
+
+.content{
+    height: 400px;
+    width: 30%;
+    background-color: rgb(98,115,122);
+    display: inline-block;
+    font-size: initial;
+    vertical-align: top;
+    
+}
+
+
+.navigation-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation-list li{
+    
+    display: inline-block;
+}
+.header-navbar{
+    width: 160px;
+    float: right;
+}
+
+.content-image{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
+
+}
+.form{
+    height: 200px;
+    width: 10%;
+    display: inline-block;
+    font-size: initial;
+    vertical-align: top;
+    margin-bottom: 50px;
+    padding-bottom: 20px;
+}
+.image{
+    width: 600px;
+    height: 150px;
+    margin-left: 20px;
+    display: block;
+    border-radius: 10px ;
+    background-image: url(./img/c0e9c490-b7e7-47a6-9c43-3e10e8ddc9cb-4445-dubai-img-worlds-of-adventure-tickets-08.avif);
+    margin-top:50px;
+}
+.form1{
+        
+        height: 200px;
+        width: 20%;
+        display: inline-block;
+        font-size: initial;
+        vertical-align: top;
+        
+        
+    
+}
+.image1{
+    position: relative;
+    top: 200px;
+    right: 120px;
+    width: 600px;
+    height: 150px;
+    display: block;
+    border-radius: 10px ;
+    background-image: url(./img/c0e9c490-b7e7-47a6-9c43-3e10e8ddc9cb-4445-dubai-img-worlds-of-adventure-tickets-08.avif);
+    
+    
+}
+.text-content{
+    display: inline-block;
+    width: 50%;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wgt@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+}
+.page-wrapper{
+    display: flex;
+    justify-content: start;
+    margin: 30px;
+    gap: 20;
+}
+h1{
+    margin: 20px;
+    font-size: 40px;
+    font-weight: lighter;
+    font-style: initial;
+    
+}
+.box{
+    border: 1px solid rgb(187, 186, 186);
+}
+
+p{
+    margin: 20px;
+    font-size: 20px;
+    vertical-align: left;
+}
+
+.img{
+    background-image: url(./img/channels4_profile.jpeg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    margin: 20px;
+    padding: 10px;
+}
+    
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .video-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  
+  .video-player {
+    
+    height: 400px;
+    width: 400px;
+    margin-left: 40px;
+  }
+  
+  .textas1{
+    margin-left: 40px;
+  }
+  .text-wrapper2{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+  }
+  .text-wrapper {
+    display: flex;
+    flex-direction:row;
+    
+  }
+
+  
+
+
+h2{
+    margin: 10px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 30px;
+    background: linear-gradient(45deg, rgb(233, 230, 227), rgb(210, 211, 206));
+border-style: none;
+}
+.button{
+ 
+    background: linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.button-box{
+    margin: 30px;
+}
+.menu{
+margin: 50px;    
+}
+
+.blue{
+    width:80px;
+    height: 80px;
+    border-radius: 100px;
+    margin: 10px;
+
+}
+.button-1{
+    height: 50px;
+    width: 80px;
+    background: linear-gradient(45deg, rgb(255, 255, 255), rgb(255, 255, 255));
+    background-color: white;
+    color: rgb(42, 79, 166);
+    border: 1px solid grey;
+    font-size: 20px;
+    position: relative;
+    bottom: 30px;
+}
+

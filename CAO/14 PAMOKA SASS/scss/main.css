@@ -1,0 +1,50 @@
+div {
+  background-color: red;
+}
+
+header {
+  height: 100px;
+  background-color: rgb(161, 109, 109);
+  color: rgb(220, 215, 215);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+header h1 {
+  color: rgb(220, 215, 215);
+}
+
+main {
+  margin-top: 1rem;
+  height: 600px;
+  background-color: rgb(161, 109, 109);
+  color: rgb(220, 215, 215);
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main div {
+  background-color: aquamarine;
+  width: 200px;
+  height: 200px;
+}
+main .middle {
+  background-color: red;
+}
+main .middle:hover {
+  background-color: blue;
+}
+
+footer {
+  margin-top: 1rem;
+  height: 100px;
+  background-color: rgb(161, 109, 109);
+  color: rgb(220, 215, 215);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}/*# sourceMappingURL=main.css.map */

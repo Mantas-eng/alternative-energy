@@ -1,0 +1,19 @@
+body{
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    background-color: blue;
+    height:100px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.child{
+    flex: 1;
+    height: 500px;
+    background-color: red;
+}
+

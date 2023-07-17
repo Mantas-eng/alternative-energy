@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+header{
+    background-color:white;
+    padding-left: 40px;
+
+}
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type:none;
+
+}
+
+
+nav ul li a:hover{
+color: rgb(33, 33, 33);
+border-bottom: 2px solid black;
+}

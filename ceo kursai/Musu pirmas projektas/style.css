@@ -1,0 +1,59 @@
+body{
+    min-width: 500px;
+
+}
+
+.header{
+    height: 80px;
+    background-color: darkcyan;
+}
+.footer{
+    height: 80px;
+    background-color: darkcyan;
+    text-align: center;
+}
+
+.menu{
+    height: 400px;
+    width: 20%;
+    background-color: darkgrey;
+    display: inline-block;
+    font-size: initial;
+    vertical-align: top;
+}
+
+.content{
+    height: 400px;
+    width: 80%;
+    background-color: (98,115,122);
+    display: inline-block;
+    font-size: initial;
+    vertical-align: top;
+}
+
+.middle-component{
+    font-size: 0;
+}
+
+.navigation-List{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.navigation-List li{
+    display: inline-block;
+}
+
+.header-navbar{
+    width: 200px;
+    float: right;
+}
+.content-image{
+    width: 40%;
+    height: 300px;
+    object-fit: cover;
+}
+.text-content{
+    display: inline-block;
+    width: 50%;
+}

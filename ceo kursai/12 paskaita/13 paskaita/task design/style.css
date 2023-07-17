@@ -1,0 +1,45 @@
+header{
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+
+.heading-content{
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;      
+        
+}
+
+
+.main-logo
+{
+    width: 8rem;
+    height: 8rem;
+}
+
+
+.logo{
+  width: 3.75rem;
+  height: 3.75rem
+}
+
+
+p{
+   text-align: center;
+   padding: 2rem;  
+}
+
+
+.card-logo{
+   object-fit: none;
+   width: 100%;
+}
+

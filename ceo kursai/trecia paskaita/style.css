@@ -1,0 +1,46 @@
+button{
+    background-color: rgb(41, 40, 40);
+    color:white;
+    width: 100px;
+    border: none;
+    height: 50px;
+}
+
+
+
+.header{
+    height: 100px;
+    background-color: cornflowerblue;
+
+
+    
+}
+
+
+.content{
+    height: 500px;
+    border: 2px solid black;
+    background-color: lemonchiffon;
+}
+
+.content2{
+    height: 200px;
+    background-color: rgb(8, 8, 11);
+}
+
+.footer{
+    height: 200px;
+    background-color:rgb(140, 59, 59) 
+
+    
+}
+
+.first{
+    height: 200px;
+    width: 400px;
+
+}
+
+.second{
+width: 400px;
+}

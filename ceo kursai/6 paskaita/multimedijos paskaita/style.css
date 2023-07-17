@@ -1,0 +1,31 @@
+header{
+    height: 100px;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 24px;
+    color: rgb(206, 147, 83);
+    }
+
+.page-wrapper{
+    background-color: grey;
+    text-align: center;
+    padding: 30px;
+}
+
+.video-player{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+}
+
+.player-wrapper{
+    display: flex;
+    justify-content: center;
+}
+.map{
+    height: 400px;
+    width: 80%;
+}
+

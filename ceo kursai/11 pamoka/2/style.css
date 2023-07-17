@@ -1,0 +1,16 @@
+
+body{
+    min-width: 500px;
+}
+
+.main-content{
+    background-color: blueviolet;
+    width: 350px;
+    margin-top: 350px;
+}
+main{
+    max-width: 600px;
+    background-image: url(/img/SW-board.jpeg);
+    
+    background-position: center;
+}
